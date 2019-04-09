@@ -3,10 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:gravity="bottom"
-    android:paddingBottom="@dimen/navigation_height"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <!--android:paddingBottom="@dimen/navigation_height"-->
     <ViewStub
         android:id="@+id/viewstub"
         android:layout_width="match_parent"
