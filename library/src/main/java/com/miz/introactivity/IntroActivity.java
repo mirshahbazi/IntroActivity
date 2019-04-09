@@ -233,6 +233,11 @@ public abstract class IntroActivity extends AppCompatActivity {
         mSkipButton.setVisibility(mShowSkipButton ? View.VISIBLE : View.GONE);
     }
 
+    protected void setTextSkipButton(String textSkipButton) {
+        mSkipButton.setText(textSkipButton);
+    }
+
+
     /**
      * Set the text color of the Skip button. Default color is white (#F0F0F0).
      * @param color Text color to set.

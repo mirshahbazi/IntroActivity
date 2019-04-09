@@ -60,6 +60,7 @@ public class DemoActivity extends IntroActivity {
         );
 
         setShowSkipButton(true);
+        setTextSkipButton("انصراف");
         setShowNextButton(true);
         setSkipButtonTextColor(Color.WHITE);
         setNextButtonBackgroundColor(Color.WHITE);
