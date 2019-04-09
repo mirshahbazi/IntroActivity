@@ -77,6 +77,7 @@ public abstract class BaseIntroFragment extends Fragment {
         title.setText(getTitle());
         title.setTextColor(getTitleColor());
 
+
         // Description
         TextView description = (TextView) view.findViewById(R.id.description);
         description.setText(getDescription());
